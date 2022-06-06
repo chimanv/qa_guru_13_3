@@ -9,6 +9,7 @@ public class PrimitiveTypes {
         char ch1 = 'a';
         boolean b1 = true;
         boolean b2 = (a > b) && b1;
+        String msg = "====== The end ======";
 
         System.out.println("Result1: " + (a + b));
         System.out.println("Result2: " + (c - b));
@@ -23,5 +24,7 @@ public class PrimitiveTypes {
 
         System.out.println("Result10: " + (Short.MAX_VALUE + b));
         System.out.println("Result11: " + (Short.MIN_VALUE - b));
+        
+        System.out.println(msg);
     }
 }
